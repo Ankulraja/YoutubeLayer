@@ -116,7 +116,7 @@ const Card = (props) => {
   }, [userId]);
   //  console.log(ytUrl);
   return (
-    <div className="flex flex-col border border-white w-[300px] max-h-[600px] ">
+    <div className="flex flex-col border rounded-lg border-white w-[300px] max-h-[600px] ">
       <div>
         {editor && (
           <div className="flex items-center gap-3 py-2 px-4 cursor-pointer">
