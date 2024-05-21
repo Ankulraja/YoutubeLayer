@@ -9,10 +9,10 @@ export const ContactUs = () => {
     <p className="text-2xl ">Contact us</p>
 
     {/* <!-- Name --> */}
-    <input type="text" className="mt-2 h-10 rounded-md px-3" placeholder="Name"/>
+    <input type="text" className="mt-2 h-10 text-black rounded-md px-3" placeholder="Name"/>
 
     {/* <!-- Email --> */}
-    <input type="email" className="h-10 rounded-md px-3" placeholder="E-mail"/>
+    <input type="email" className="h-10 rounded-md px-3 text-black" placeholder="E-mail"/>
 
     {/* <!-- Subject --> */}
     <label>Subject</label>
@@ -26,12 +26,12 @@ export const ContactUs = () => {
 
     {/* <!-- Message --> */}
     <div className="form-group">
-        <textarea className="form-control rounded-0 pl-2 pt-2" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+        <textarea className="form-control rounded-0 text-black pl-2 pt-2" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
     </div>
 
     {/* <!-- Copy --> */}
     <div className="custom-control custom-checkbox mb-4 ">
-        <input type="checkbox" className="custom-control-input" id="defaultContactFormCopy"/>
+        <input type="checkbox" className="custom-control-input text-black" id="defaultContactFormCopy"/>
         <label className="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
     </div>
 
